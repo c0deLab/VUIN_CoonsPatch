@@ -1,0 +1,36 @@
+.tutorial {
+	color: #fff;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	overflow: visible;
+	opacity: 0;
+	transition: 0.5s opacity;
+	font-size: 1.55vw;
+	line-height: 1.3;
+}
+
+	.tutorial h1 {
+		font-size: 2.8vw;
+	}
+
+.tutorial--active {
+	opacity: 1;
+}
+
+.tutorial__overlay {
+	background: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	padding: 15vh 15vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.underline {
+	text-decoration: underline;
+}

@@ -1,0 +1,36 @@
+* {
+	position: relative;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body { 
+	cursor: none;
+  overflow: hidden; 
+}
+
+.action {
+	left: 2vw;
+	top: 2vw;
+	position: absolute;
+	color:white;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: 0.06em;
+}
+
+.helper-text {
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	padding: 1.2em;
+	font-size: 20px;
+	left: 0;
+	text-align: center;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	width: 100%;
+}
+
+.helper-text:empty { display: none; }
